@@ -15,4 +15,4 @@ local V,IV = pcall(function()
 end)
 
 if not V and not Valid then return end
-if V and Valid then print("Valid game found!") end
+if V and Valid then --print("valid") end
